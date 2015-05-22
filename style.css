@@ -37,7 +37,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../pilet1.jpg) no-repeat center center fixed; 
+  background: url(https://cloud.githubusercontent.com/assets/1126445/7774617/ea04931e-0082-11e5-9807-80f157f937d1.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -68,7 +68,7 @@ html, body {
 }
 
 #information {
-  background: url(../pilet2.jpg) no-repeat center center fixed; 
+  background: url(https://cloud.githubusercontent.com/assets/1126445/7774619/ee594cc0-0082-11e5-9329-195f8a9cf0e0.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
