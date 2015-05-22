@@ -42,5 +42,13 @@ $(document).ready(function (){
   // add information window
   var infowindow = new google.maps.InfoWindow({
     content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
-  });  
+  }); 
+
+  $(window).scroll(function(i){
+    var scrollVar = $(window).scrollTop();
+    $('.title').css({'top': .7*scrollVar });
+    $('.title').css({'opacity':( 100-scrollVar )/100});
+    $('.text-vcenter').css({'top': .2*scrollVar });
+    //$('.text-vcenter').css({'opacity':( 100-scrollVar )/100});
+  }) 
 });
